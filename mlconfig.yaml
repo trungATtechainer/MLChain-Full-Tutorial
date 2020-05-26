@@ -1,0 +1,14 @@
+name: Digit Recognizer # name of service
+entry_file: app.py # python file contains object ServeModel
+host: localhost # host service
+port: 5000 # port service
+server: flask # option flask or grpc
+wrapper: None # option None or gunicorn
+cors: true
+gunicorn:
+  timeout: 60
+  keepalive: 60
+  max_requests: 0
+  threads: 1
+  worker_class: 'gthread'
+  umask: '0'
