@@ -1,3 +1,3 @@
-## Quick Start Guide for MLChain Tutorial
+## MLChain Tutorial - Finished files
 
 Access the full guide at: ...
